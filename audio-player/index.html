@@ -7,15 +7,11 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="audio-container">
-            <audio controls>
-                <source src="" type="audio/mpeg">
-            </audio>
-            <input type="file" accept="audio/*" onchange="loadAudio(this, 0)">
-        </div>
+    <div class="container" id="container">
     </div>
 
+    <input type="file" accept="audio/*" onchange="loadAudio(this)">
+    
     <script src="script.js"></script>
 </body>
 </html>

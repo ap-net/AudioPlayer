@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    grid-gap: 5px; 
+    max-width: 600px;
+}
+
+.audio-box {
+    background-color: #b81d1d; 
+    border: 1px solid black; 
+    transition: height 0.1s ease;
+}
